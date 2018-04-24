@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/triepar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trier la statistique Par:"
+        android:textColor="#FF0000"
+        android:gravity="left"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/datetrie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/triepartie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level" />
+
+    <Button
+        android:id="@+id/triescore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score" />
+
+    <Button
+        android:id="@+id/defaulttrie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defaut" />
+</LinearLayout>
